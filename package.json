@@ -4,7 +4,8 @@
   "description": "A simple webshop",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "start": "nodemon index.js"
   },
   "keywords": [
     "webshop",
@@ -12,5 +13,8 @@
     "FED19S"
   ],
   "author": "Louise Dennevi",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
